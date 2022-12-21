@@ -281,7 +281,7 @@ def z():
 #
 #####
 """)
-word = input()
+word = input().lower()
 for abc in word:
   if abc == 'a':
     a()
